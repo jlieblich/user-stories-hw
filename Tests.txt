@@ -1,0 +1,61 @@
+App Name: Sync for Reddit
+
+Test Case #1: The user can access posts directly from reddit.com
+
+	Condition #1: Visual media is accessable by clicking on the picture/gif/video/etc.
+	User Story #1: As a user, I can click a picture/gif/video to view it
+	
+	Condition #2: A post's title is clearly visible under the thumbnail
+	User Story #2: As a user, I can easily locate/read the title of a post
+
+	Condition #3: Scrolling down displays more posts
+	User Story #3: As a user, I can view more content by scrolling down
+
+	Condition #4: Upvote/downvote allow the user to vote on the post they are attached to 
+	User Story #4: As a user, I can upvote or downvote any visible post
+
+	Condition #5: The user can add a post to their 'favorites' with a single button press
+	User Story #5: As a user, I can favorite a post by pressing the star on it
+
+	Condition #6: The user can view a post's comments by clicking on the post itself
+	User Story #6: As a user, I can click on a post to view the comments section
+
+Test Case #2: Log in to personal account
+
+	Condition #1: The user can add their account to the app by entering their username/password
+	User Story #1: As a user, I can log into my reddit account directly through the app
+
+	Condition #2: The user's account info will be saved upon the user's request
+	User Story #2: As a user, I can save my login info so I don't have to log back in every time
+
+	Condition #3: The app logs in directly through reddit to verify account information
+	User Story #3: As a user, I can validate my login information without leaving the app
+
+	Condition #4: A message is displayed if the user incorrectly enters their account information
+	User Story #4: As a user, I can see a message if I typed in the wrong password
+
+	Condition #5: If a user has multiple accounts, they can log into additional accounts by pressing '+'
+	User Story #5: As a user, I can add and log into my alternate accounts with the '+' button
+
+	Condition #6: The user's account name is visible if they are currently logged in
+	User Story #6: As a user, I can tell whether or not I'm logged in when I see my username
+
+Test Case #3: Submitting content
+
+	Condition #1: The user can select the type of post they would like to submit
+	User Story #1: As a user, I can choose if I want my post to be a text or link before submitting
+
+	Condition #2: The user can add a title to their post, regardless of the type
+	User Story #2: As a user, I can give my post a title of my choosing
+
+	Condition #3: If a post has no title, the user will receive an error message
+	User Story #3: AS a user, I can be notified when I try to submit a post with no title
+
+	Condition #4: Typing in a subreddit name to submit the post to will bring up suggestions for the user
+	User Story #4: As a user, I can avoid typing out the whole name of a subreddit by pressing the suggestions
+
+	Condition #5: Submitting a text post with only a title is acceptable, but link posts must contain a link + title
+	User Story #5:As a user, I can submit an empty text post, but not an empty link
+
+	Condition #6: The cancel button sets an alert to allow the user to save or erase the contents of their unsubmitted post
+	User Story #6: As a user, I can choose to save a draft of my incomplete post before moving to another screen
